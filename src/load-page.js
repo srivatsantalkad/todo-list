@@ -8,7 +8,8 @@ export default function loadPage() {
 
     const addProjectButton = document.createElement('div');
     addProjectButton.innerText = 'Add new Project';
-    addProjectButton.onclick = content.appendChild(createProject());
-
-    content.appendChild(addProjectButton);
+    addProjectButton.onclick = () => {
+        content.appendChild(createProject());
+    }
+    content.appendChild(addProjectButton);      
 }
