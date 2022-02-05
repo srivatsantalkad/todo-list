@@ -55,6 +55,7 @@ nav {
 }
 .add-entry-style:hover {
     filter: brightness(80%);
+    cursor: pointer;
 }
 
 .add-project-style {
@@ -67,6 +68,7 @@ nav {
 }
 .add-project-style:hover {
     filter: brightness(80%);
+    cursor: pointer;
 }
 
 
