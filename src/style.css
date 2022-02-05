@@ -8,3 +8,30 @@ nav {
     background-color: rgb(38, 76, 102);
     font-weight: bold;
 }
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-container-style {
+    display: flex;
+    flex-direction: column;   
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.project-title-style {
+    color: white;
+    background-color: yellow;
+    padding: 1em;
+}
+
+.add-project-style {
+    color: white;
+    background-color: green;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1em;
+}
+
