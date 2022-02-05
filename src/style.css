@@ -28,7 +28,7 @@ nav {
     flex-direction: column;  
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10%;
-    width: 250px;
+    width: 260px;
 }
 
 .project-title-style {
@@ -39,6 +39,8 @@ nav {
 }
 
 .to-do-style {
+    display: flex;
+    gap: 0.1em;
     margin: 1em;
 }
 

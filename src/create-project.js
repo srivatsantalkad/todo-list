@@ -19,6 +19,7 @@ export default function createProject() {
     projectContainer.appendChild(projectTitle);
     projectContainer.appendChild(toDoContainer);
     projectContainer.appendChild(addToDo);
+    createToDoContainer(projectContainer)
     addToDo.onclick = () => {
         createToDoContainer(projectContainer);
     }
