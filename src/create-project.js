@@ -12,7 +12,7 @@ export default function createProject() {
 
 
     const projectContainer = document.createElement('div');
-    projectContainer.classList.add('.project-container-style');
+    projectContainer.classList.add('project-container-style');
 
     projectContainer.appendChild(projectTitle);
     projectContainer.appendChild(toDoContainer);
