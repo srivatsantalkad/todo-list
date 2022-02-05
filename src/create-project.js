@@ -7,7 +7,7 @@ export default function createProject() {
     const toDoContainer = document.createElement('div');
 
     const addToDo = document.createElement('div');
-    addToDo.classList.add('to-do-style');
+    addToDo.classList.add('add-entry-style');
 
     projectTitle.innerText = 'Project Title';
     addToDo.innerText = 'Add entry';

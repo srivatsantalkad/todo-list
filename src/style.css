@@ -1,3 +1,7 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
 nav {
     display: flex;
     justify-content: center;
@@ -20,9 +24,11 @@ nav {
 
 .project-container-style {
     display: flex;
-    flex-direction: column;   
+    flex-wrap: wrap;
+    flex-direction: column;  
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10%;
+    width: 250px;
 }
 
 .project-title-style {
@@ -32,15 +38,34 @@ nav {
     padding: 1em;
 }
 
+.to-do-style {
+    margin: 1em;
+}
+
+.add-entry-style {
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 1em;
+    color: white;
+    background-color: darkred;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1em;   
+    width: 100px;
+
+}
+.add-entry-style:hover {
+    filter: brightness(80%);
+}
+
 .add-project-style {
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
     color: white;
     background-color: green;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1em;
 }
-
-.to-do-style {
-    margin: 1em;
+.add-project-style:hover {
+    filter: brightness(80%);
 }
 
 
