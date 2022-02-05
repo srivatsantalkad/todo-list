@@ -10,7 +10,10 @@ export default function loadPage() {
     addProjectButton.innerText = 'Add new Project';
     addProjectButton.classList.add('add-project-style');
     addProjectButton.onclick = () => {
+        content.removeChild(addProjectButton);
         content.appendChild(createProject());
+        content.appendChild(addProjectButton);
+        
     }
     content.appendChild(addProjectButton);
     
