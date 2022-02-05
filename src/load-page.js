@@ -1,7 +1,7 @@
 import createProject from "./create-project";
 
 export default function loadPage() {
-    const projectContainer = createProject();
+    const projectContainer = createProject("Default");
     const content = document.querySelector('#content');
 
     content.appendChild(projectContainer);
@@ -11,7 +11,8 @@ export default function loadPage() {
     addProjectButton.classList.add('add-project-style');
     addProjectButton.onclick = () => {
         content.removeChild(addProjectButton);
-        content.appendChild(createProject());
+        let projectTitle = prompt("Enter name of project:")
+        content.appendChild(createProject(projectTitle));
         content.appendChild(addProjectButton);
         
     }
