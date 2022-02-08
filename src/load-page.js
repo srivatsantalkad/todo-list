@@ -4,6 +4,8 @@ export default function loadPage() {
     const projectContainer = createProject("Default");
     const content = document.querySelector('#content');
 
+
+
     content.appendChild(projectContainer);
 
     const addProjectButton = document.createElement('div');
@@ -16,6 +18,8 @@ export default function loadPage() {
         content.appendChild(addProjectButton);
         
     }
+
+
     content.appendChild(addProjectButton);
     
 }

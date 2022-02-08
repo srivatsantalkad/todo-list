@@ -43,15 +43,9 @@ nav {
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1em;
     color: white;
-    background-color: darkred;
+    background-color: green;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1em;   
-    width: 100px;
-
-}
-.add-entry-style:hover {
-    filter: brightness(80%);
-    cursor: pointer;
 }
 
 .add-project-style {
@@ -62,10 +56,23 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1em;
 }
-.add-project-style:hover {
+
+
+.remove-entry-style {
+    color: white;
+    background-color: darkred;
+    padding: 0.5em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.add-project-style:hover, .add-entry-style:hover, .remove-entry-style:hover {
     filter: brightness(80%);
     cursor: pointer;
 }
 
-
+.projectitlewrapper {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
